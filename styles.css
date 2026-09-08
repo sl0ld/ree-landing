@@ -50,6 +50,7 @@
 .details b strong{font-weight:700}
 .contacts a{color:inherit}
 .contacts a:hover{text-decoration:underline}
+.contacts{grid-template-columns:1fr}
 .meta{display:flex;gap:32px;border-top:1px solid #fff4;padding:18px 0 25px;margin:18px 0 5px}
 .meta span{display:flex;flex-direction:column;gap:5px;border-right:1px solid var(--orange);padding-right:15px}
 .meta small{color:var(--orange);font-size:9px}
