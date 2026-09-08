@@ -48,3 +48,5 @@
 @media(max-width:500px){.form-copy>.contacts{grid-template-columns:1fr}}
 .package-grid b{font-family:var(--sans);font-weight:600;letter-spacing:-1px}
 .details b strong{font-weight:700}
+.contacts a{color:inherit}
+.contacts a:hover{text-decoration:underline}
