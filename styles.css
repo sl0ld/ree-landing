@@ -19,3 +19,20 @@
 .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(64,53,46,.1),rgba(64,53,46,.88) 66%);pointer-events:none}
 @media(max-width:850px){.hero{min-height:620px}.hero-image{width:100%;height:620px}.hero-copy{top:auto;right:7vw;bottom:45px;left:7vw;transform:none;max-width:none;padding:24px;background:rgba(64,53,46,.82)}}
 @media(max-width:500px){.hero{min-height:650px}.hero-image{height:650px}.hero-copy{bottom:28px;padding:18px}.hero h1{font-size:43px}}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);padding:28px 8vw;background:var(--cream);border-bottom:1px solid var(--line)}
+.facts div{display:flex;align-items:center;gap:15px;padding:0 25px;border-right:1px solid #40352e55}
+.facts div:first-child{border:0}
+.facts b{font:700 39px var(--serif);color:var(--orange)}
+.facts span{font-size:11px;color:var(--muted)}
+.intro{display:grid;grid-template-columns:.8fr 1.2fr;gap:9vw}
+.intro>div:last-child{max-width:620px;font-size:15px;line-height:2;color:var(--muted);padding-top:38px}
+.categories{background:var(--cream)}
+.category-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:15px}
+.category-grid article{min-height:190px;padding:25px;background:#fffdf9;border:1px solid var(--line);transition:.25s}
+.category-grid article:hover{transform:translateY(-5px);border-color:var(--orange)}
+.category-grid i{font:18px var(--serif);color:var(--orange);font-style:normal}
+.category-grid h3{font-size:17px;margin:28px 0 10px}
+.category-grid p{font-size:11px;color:var(--muted);line-height:1.9}
+.packages{padding:110px 8vw;background:var(--brown);color:#fffaf3}
+@media(max-width:850px){.facts{grid-template-columns:repeat(2,1fr);gap:20px 0}.facts div{border:0;padding:0}.facts div:nth-child(n+3){border-top:1px solid #40352e55;padding-top:18px}.intro{display:flex;flex-direction:column;gap:40px}.intro>div:last-child{padding:0}.category-grid{grid-template-columns:repeat(2,1fr)}.packages{padding:80px 7vw}}
+@media(max-width:500px){.category-grid{grid-template-columns:1fr}.facts b{font-size:31px}}
