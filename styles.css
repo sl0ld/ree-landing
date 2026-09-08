@@ -46,3 +46,4 @@
 .form-copy>.contacts{grid-column:2;grid-row:3;margin:24px 0 0;padding:18px 15px 0 0;border-right:2px solid var(--orange);grid-template-columns:repeat(2,1fr)}
 @media(max-width:850px){.form-section{display:flex}.form-copy{display:contents}.form-copy>.eyebrow{order:1}.form-copy>h2{order:2;margin-top:0}.form-copy>p:not(.eyebrow){order:3}.lead-form{order:4}.form-copy>.contacts{order:5;margin-top:0;padding-top:18px;grid-template-columns:1fr 1fr}}
 @media(max-width:500px){.form-copy>.contacts{grid-template-columns:1fr}}
+.package-grid b{font-family:var(--sans);font-weight:600;letter-spacing:-1px}
