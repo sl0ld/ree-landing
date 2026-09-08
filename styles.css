@@ -50,3 +50,8 @@
 .details b strong{font-weight:700}
 .contacts a{color:inherit}
 .contacts a:hover{text-decoration:underline}
+.meta{display:flex;gap:32px;border-top:1px solid #fff4;padding:18px 0 25px;margin:18px 0 5px}
+.meta span{display:flex;flex-direction:column;gap:5px;border-right:1px solid var(--orange);padding-right:15px}
+.meta small{color:var(--orange);font-size:9px}
+.meta b{font-size:13px}
+@media(max-width:500px){.meta{gap:14px}.meta b{font-size:11px}}
