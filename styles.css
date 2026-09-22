@@ -51,6 +51,11 @@
 .contacts a{color:inherit}
 .contacts a:hover{text-decoration:underline}
 .contacts{grid-template-columns:1fr}
+.form-copy>.contacts{grid-template-columns:1fr;justify-items:start;gap:12px}
+.floating-whatsapp{position:fixed;z-index:20;right:22px;bottom:22px;display:flex;align-items:center;gap:9px;padding:12px 17px;border-radius:999px;background:#1b9d5a;color:#fff;box-shadow:0 12px 28px #1b9d5a55;font-size:12px;direction:rtl;transition:transform .25s,box-shadow .25s}
+.floating-whatsapp span{display:grid;place-items:center;width:23px;height:23px;border:2px solid #fff;border-radius:50%;font-size:17px;line-height:1;transform:rotate(-35deg)}
+.floating-whatsapp:hover{transform:translateY(-4px);box-shadow:0 16px 32px #1b9d5a66}
+@media(max-width:500px){.floating-whatsapp{right:14px;bottom:14px;padding:11px 14px}.floating-whatsapp b{font-size:11px}}
 .meta{display:flex;gap:32px;border-top:1px solid #fff4;padding:18px 0 25px;margin:18px 0 5px}
 .meta span{display:flex;flex-direction:column;gap:5px;border-right:1px solid var(--orange);padding-right:15px}
 .meta small{color:var(--orange);font-size:9px}
